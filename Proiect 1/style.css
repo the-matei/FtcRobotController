@@ -10,7 +10,6 @@
     background-position: center;
     background-size: cover;
     position: relative;
-    color: gray;
 }
 nav{
     display: flex;
