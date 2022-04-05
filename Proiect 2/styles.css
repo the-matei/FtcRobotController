@@ -151,12 +151,9 @@
 
   }
   .navbar__btn{
-    padding-bottom: 2rem;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
     height: 80%;
-    margin: 0;
+    padding: 0 60px;
+    padding-bottom: 2rem;
   }
 
   #mobile-menu{
@@ -175,7 +172,7 @@
   #mobile-menu.is-active .bar:nth-child(1){
     transform: translateY(8px) rotate(45deg);
   }
-  #mobile-menu.is-active .bar:nth-child(1){
+  #mobile-menu.is-active .bar:nth-child(3){
     transform: translateY(-8px) rotate(-45deg);
   }
 }
