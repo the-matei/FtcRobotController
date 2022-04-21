@@ -1,3 +1,5 @@
+@import url('content.css');
+
 :root{
     --darkgray: #212329;
     --brightred: #F9423D;
@@ -68,14 +70,14 @@
     padding: 5px 15px;
     border-radius: 4px;
     border: solid 1px var(--brightred);
-    transition: all 0.3 ease-out;
+    transition: all 0.3s ease-out;
 }
 
 .menu-toggle .bar{
     width: 25px;
     height: 3px;
     margin: 5px auto;
-    transition: all 0.3 ease-in-out;
+    transition: all 0.3s ease-in-out;
     background: var(--white);
 }
 
@@ -105,7 +107,7 @@
         background: var(--darkgray);
         left: 0;
         opacity: 1;
-        transition: all 0.5 ease;
+        transition: all 0.5s ease;
     }
 
     .nav-links {
@@ -118,7 +120,7 @@
     .nav-links:hover {
         background-color: var(--brightred);
         color: var(--white);
-        transition: all 0.4 ease out;
+        transition: all 0.4s ease out;
     }
 
     .navbar {
@@ -131,7 +133,8 @@
         border-radius: 0;
         background-color: var(--brightred );
         color: var(--white);
-        transition: all 0.4 ease-out;
+        transition: all 0.4s ease-out;
+        background-color: var(--darkgray);
     } 
 
     #mobile-menu {

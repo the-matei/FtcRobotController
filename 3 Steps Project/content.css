@@ -1,0 +1,16 @@
+:root{
+    --darkgray: #212329;
+    --brightred: #F9423D;
+    --white: #fff ;
+    --lightred: #f9433dcc;
+}
+
+.main {
+    background-color: var(--darkgray);
+}
+
+.main-container{
+    display: grid ;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
